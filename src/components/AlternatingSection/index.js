@@ -9,8 +9,13 @@ const sections = [
     </>
   },
   { 
-    image: 'image2.jpg', 
-    text: 'Deuxième section' 
+    image: '/img/main/solaire.jpeg',
+    title: "Une énérgie verte",
+    text: 
+    <> 
+      Une bref description, blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla
+      blabla blablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+    </>
   },
   { 
     image: 'image3.jpg', 
@@ -26,7 +31,7 @@ const AlternatingSection = ({ image, title, text, flip }) => {
       </div>
       <div className="text-container">
         <h2 className="title-container">{title}</h2>
-        <p>{text}</p>
+        <p className={'text-box'}>{text}</p>
       </div>
     </div>
   );
