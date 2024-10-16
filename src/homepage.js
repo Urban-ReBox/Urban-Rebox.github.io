@@ -41,4 +41,11 @@ const features = [
     },
 ]
 
+// 1. La qualité de Vie
+// 2. Panneaux solaires
+// 3. Toiture végétalisée
+// 4. Isolation thermique et sonique
+// 5. Parking
+
+
 export default features;
