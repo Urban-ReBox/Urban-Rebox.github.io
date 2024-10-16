@@ -1,4 +1,4 @@
-import sections from '../../pages/homepage';
+import sections from '../../homepage';
 import styles from './index.module.css';
 import clsx from 'clsx';
 
