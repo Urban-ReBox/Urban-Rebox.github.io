@@ -8,4 +8,4 @@ Ce toit sera composé d'une diversite floristique : les herbacées, les plantes 
 
 De plus, le toit végétal est un bon outil en terme de rafraichissement de l'air urbain pollué participant ainsi à la qualité de l'air. 
 
-En dernier lieu, le toit vegetal participe à l'isolation des logements, tant thermique que accoustique, et preserve egalement l'intégrité du dessus en acier des conteneurs contre d'enventuels intemperie (grêles...). 
+En dernier lieu, le toit vegetal participe à [l'isolation](/docs/info/conteneurs/isolation) des logements, tant thermique que accoustique, et preserve egalement l'intégrité du dessus en acier des conteneurs contre d'enventuels intemperie (grêles...). 
