@@ -1,16 +1,11 @@
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import MDXContent from '@theme/MDXContent'
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import Main from '../components/Main.mdx';
 import MainContent from '../components/AlternatingSection';
 import React from 'react';
 
-
-
-import { docusaurusVersion } from '@generated/site-metadata';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -40,14 +35,8 @@ export default function Home() {
       description="Découvrez le nouveau concept UrbanReBox">
       <HomepageHeader />
       <main>
-        <MDXContent>
-        
-          <Main/>
-
-        </MDXContent>
 
         <MainContent/>
-
       </main>
     </Layout>
 

@@ -1,37 +1,19 @@
-const sections = [
-  { 
-    image: '/img/main/solaire.jpeg',
-    title: "Une énérgie verte",
-    text: 
-    <> 
-      Une bref description, blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla
-      blabla blablablablablablablablablablablablablablablablablablablablablablablablablablablabla
-    </>
-  },
-  { 
-    image: '/img/main/solaire.jpeg',
-    title: "Une énérgie verte",
-    text: 
-    <> 
-      Une bref description, blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla
-      blabla blablablablablablablablablablablablablablablablablablablablablablablablablablablabla
-    </>
-  },
-  { 
-    image: 'image3.jpg', 
-    text: 'Troisième section' 
-  },
-];
+import sections from '../../pages/homepage';
+import styles from './index.module.css';
+import clsx from 'clsx';
 
 const AlternatingSection = ({ image, title, text, flip }) => {
+
+  const flipped = (flip ? styles.flipped : null);
+
   return (
-    <div className={`alternating-section ${flip ? 'flipped' : ''}`}>
-      <div className="image-container">
+    <div className={clsx(styles.alternatingSection, flipped)}>
+      <div className={styles.imageContainer}>
         <img src={image} alt="illustration" />
       </div>
-      <div className="text-container">
-        <h2 className="title-container">{title}</h2>
-        <p className={'text-box'}>{text}</p>
+      <div className={styles.textContainer}>
+        <h2 className={styles.titleContainer}>{title}</h2>
+        <p className={styles.textBox}>{text}</p>
       </div>
     </div>
   );
@@ -40,7 +22,7 @@ const AlternatingSection = ({ image, title, text, flip }) => {
 const MainContent = () => {
 
   return (
-    <div>
+    <article className={styles.feature}>
       {sections.map((section, index) => (
         <AlternatingSection
           key={index}
@@ -50,7 +32,7 @@ const MainContent = () => {
           flip={index % 2 !== 0}
         />
       ))}
-    </div>
+    </article>
   );
 };
 
