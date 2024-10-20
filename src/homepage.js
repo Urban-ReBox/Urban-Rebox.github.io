@@ -8,7 +8,7 @@ De nos jours, le prix d’un conteneur de 20 pieds avoisine les 2800 euros ce qu
 Nous sommes Urban Rebox et nous vous souhaitons la bienvenue au sein de nos résidences entièrement équipées.
 
             </>
-    }
+    },
     { 
         image: "/img/main/<url de l'image>",
         title: "La qualité de vie",
