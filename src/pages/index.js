@@ -5,6 +5,8 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import MainContent from '../components/AlternatingSection';
 import React from 'react';
+import MDXContent from '@theme/MDXContent';
+import Main from '../main.md';
 
 
 function HomepageHeader() {
@@ -35,6 +37,13 @@ export default function Home() {
       description="Découvrez le nouveau concept UrbanReBox">
       <HomepageHeader />
       <main>
+        <div className='center_item'>
+          <article style={{maxWidth: 1000+'px', marginTop: 20+'px', marginLeft: 20+'px', marginRight: 15+'px'}}>
+            <MDXContent>
+                <Main/>
+            </MDXContent>
+          </article>
+        </div>
 
         <MainContent/>
       </main>

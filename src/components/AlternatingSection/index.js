@@ -7,7 +7,7 @@ const AlternatingSection = ({ image, title, text, flip }) => {
   const flipped = (flip ? styles.flipped : null);
 
   return (
-    <div className={clsx(styles.alternatingSection, flipped)}>
+    <article className={clsx(styles.alternatingSection, flipped)}>
       <div className={styles.imageContainer}>
         <img src={image} alt="illustration" />
       </div>
@@ -15,7 +15,7 @@ const AlternatingSection = ({ image, title, text, flip }) => {
         <h2 className={styles.titleContainer}>{title}</h2>
         <p className={styles.textBox}>{text}</p>
       </div>
-    </div>
+    </article>
   );
 };
 
