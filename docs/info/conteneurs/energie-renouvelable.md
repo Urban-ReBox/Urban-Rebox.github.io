@@ -7,4 +7,4 @@ Nous proposons de redistribuer l’énergie électrique de manière équitable �
 
 Nous précisons que nos panneaux solaires ont été choisi afin d’avoir la plus grande puissance possible (Puissance : 150 W). C’est pourquoi nous avons choisis d’équiper nos toits de panneaux solaires monocristallins d’un rendement de 23% et d’une durée de vie de 30 ans.  
 
-[toiture-vegetalisees-panneaux-solaires](/img/toiture-vegetalisees-panneaux-solaires.jpg)
+![toiture-vegetalisees-panneaux-solaires](/img/toiture-vegetalisees-panneaux-solaires.jpg)
