@@ -1,10 +1,10 @@
 const features = [
     { 
-        image: "/img/main/<url de l'image>",
+        image: "/img/main/qualite-de-vie.jpg",
         title: "La qualité de vie",
         text: 
             <> 
-            Texte
+            Découvrez la qualité de vie de nos conteneurs, grâce à leurs conceptions pensé pour votre confort.
             </>
     },
     { 
@@ -12,31 +12,23 @@ const features = [
         title: "Une énérgie verte",
         text: 
             <> 
-            Texte
+            Nous utilisons des sources d'énérgies verte, pour réduire l'impacte carbone de nos conteneurs.
             </>
     },
     { 
-        image: "/img/main/<url de l'image>",
+        image: "/img/main/toit.jpg",
         title: "Toiture végétalisé",
         text: 
             <> 
-            Texte
+            Nous utilisons un système inovant de toiture végétalisé, benefique pour l'isolation et la biodiversité.
             </>
     },
     { 
-        image: "/img/main/<url de l'image>",
+        image: "/img/main/isolation.jpg",
         title: "Isolation thermique et phonique",
         text: 
             <> 
-            Texte
-            </>
-    },
-    { 
-        image: "/img/main/<url de l'image>",
-        title: "Le parking",
-        text: 
-            <> 
-            Texte
+            Nous utilisons une isolation thermique et phonique performante, pour réduire l'impacte sur l'environnement.
             </>
     },
 ]
