@@ -103,11 +103,11 @@ const config = {
             position: 'left',
             label: 'Nos engagements',
           },
-          {
+          /*{
             href: 'https://github.com/Urban-ReBox/Urban-Rebox.github.io',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
